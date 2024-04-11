@@ -100,7 +100,7 @@ class SunoApi {
    * @param prompt The text prompt to generate audio from.
    * @param make_instrumental Indicates if the generated audio should be instrumental.
    * @param wait_audio Indicates if the method should wait for the audio file to be fully generated before returning.
-   * @returns 
+   * @returns
    */
   public async generate(
     prompt: string,
@@ -327,4 +327,4 @@ const newSunoApi = async (cookie: string) => {
   return await sunoApi.init();
 }
 
-export const sunoApi = newSunoApi(process.env.SUNO_COOKIE || '');
+export const sunoApi = newSunoApi("mp_26ced217328f4737497bd6ba6641ca1c_mixpanel=%7B%22distinct_id%22%3A%20%22bd644035-8ee9-4f40-8dea-6c7d9d278ccf%22%2C%22%24device_id%22%3A%20%2218ec4efc669244-020691184d3461-4c193201-1fa400-18ec4efc669244%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22%24user_id%22%3A%20%22bd644035-8ee9-4f40-8dea-6c7d9d278ccf%22%7D; __client_uat=1712701037; __cf_bm=34uByin63ev4F9kZyHhS05WXaQ3NpcSdqIU3QsDTn7I-1712765789-1.0.1.1-SMUn.8NOYNGrsfvgLpGOT19CSNV4Yd8PTYCdD4DXkpH9qRWeeOenmZT1ok8RJDmzPYoUJkc7iEif4sKqM2VZog; _cfuvid=eWL2RhnBmnXH332VKxCzbdkUU9JLy7zvbIPgCerwXPk-1712731415939-0.0.1.1-604800000; __client=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImNsaWVudF8yZXNsQzBXVTVJaXljeUFKd3RLV09Uc0NHUGgiLCJyb3RhdGluZ190b2tlbiI6IjdjdXJuNjN6cGliY25zcnU1cmY5bzcxOHRvOTNjNWoxc2lla3p3MW4ifQ.FOzfSHD3_7I-lbvmdi880rIrjPNHuaQ7ng02qLOUkZdVumZzMnUPxjSfXv6bGsDphSKjwQI55iuPXOrL1o9Z9VPbE-81NicMMx9nDWJC5WnPoMOkBFAtJNW5OsmDk2vJ57XDiOGUJb4Ls7Y09nkfoUneW5m5Cur4lJbAsBBjbCX3th445ZOkLxrrNwn6wwe6LKudrNlc5qJXZ9thUtX_hhGAVaYnvaGP4fgydyDcPWeqb3NvQalL0S7G-QvPBv_ffaTK_Olu00UAISPsQe5_eb3QQGTv63kuns_QgZA7o-u3vu8nebbSbu-X3ZB2-12Ip_Ipf-6owNwr6tClSotswQ" || '');
