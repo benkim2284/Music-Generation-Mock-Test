@@ -327,4 +327,4 @@ const newSunoApi = async (cookie: string) => {
   return await sunoApi.init();
 }
 
-export const sunoApi = newSunoApi(process.env.SUNO_COOKIE || '');
+export const sunoApi = newSunoApi(process.env.NEXT_PUBLIC_SUNO_COOKIE || '');
